@@ -1,0 +1,44 @@
+{
+    "projects": [
+      {
+        "name": "Project 1",
+        "img": "assets/avoegg.jpg",
+        "skills": "Design",
+        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"https://www.redsparkdigital.co.uk/",
+        "git":"https://www.redsparkdigital.co.uk/"
+      },
+      {
+        "name": "Project 2",
+        "img": "assets/eggybread.jpg",
+        "skills": "Design",
+        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"https://www.redsparkdigital.co.uk/",
+        "git":"https://www.redsparkdigital.co.uk/"
+      },
+      {
+        "name": "Project 3",
+        "img": "assets/frenchtoast.jpg",
+        "skills": "Design",
+        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"https://www.redsparkdigital.co.uk/",
+        "git":"https://www.redsparkdigital.co.uk/"
+      },
+      {
+        "name": "Project 4",
+        "img": "assets/fruittoast.jpg",
+        "skills": "Design",
+        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"https://www.redsparkdigital.co.uk/",
+        "git":"https://www.redsparkdigital.co.uk/"
+      },
+      {
+        "name": "Project 5",
+        "img": "assets/fryup.jpg",
+        "skills": "Design",
+        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"https://www.redsparkdigital.co.uk/",
+        "git":"https://www.redsparkdigital.co.uk/"
+      }
+    ]
+  }
