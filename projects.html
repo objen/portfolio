@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scripts/portfolio.js" defer></script>
+    <body class="text-white">
+
+        <nav class="contrast fixed z-50 lg:static w-full p-2 lg:p-3 xl:p-6 flex flex-row justify-between stroke-2">
+            <a class="font-semibold text-4xl xl:text-5xl" href="index.html"><span>Jenny Claxton</span></a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 lg:hidden" id="mobile-menu-open">
+                <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+              </svg> 
+            <div class="navlinks hidden lg:flex p-2 flex flex-col lg:flex-row items-end gap-4 lg:gap-3 xl:gap-6 text-4xl xl:text-5xl font-semibold">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 lg:hidden" id="mobile-menu-close">
+                    <path fillRule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
+                  </svg>
+                <a href="projects.html" class="transition-all lg:motion-safe:hover:underline">Projects</a>
+                <a href="about.html" class="transition-all lg:motion-safe:hover:underline">About Me</a>
+                <a href="contact.html" class="transition-all lg:motion-safe:hover:underline">Contact</a>
+            </div>
+        </nav>
+
+        <main class="pt-1 w-full lg:max-w-4xl xl:max-w-7xl mx-auto">
+            <!-- HERO SECTION -->
+            <section class="p-4 lg:flex lg:justify-center lg:items-center">
+                <img src="assets/projectthumb.png" alt="A sticker that looks like a CYMK diagram" class="pt-10 size-2/3 md:size-1/2 lg:size-1/3">
+                <div>
+                    <p class="contrast font-bold text-6xl lg:text-7xl -mt-10 px-10 text-right">My</p>
+                    <h1 class="contrast font-bold mb-5 px-9 text-7xl lg:text-8xl  text-right">Projects</h1>
+                </div>
+            </section>
+            <!-- CONTENT SECTION -->
+            <section class="project-details flex flex-col lg:flex-row lg:justify-around lg:flex-wrap p-4 gap-8 items-center">
+                <!-- JSON OVERVIEW CONTENT HERE -->
+                <div class="order-last w-1/3 h=0"></div>
+                <div class="order-last w-1/3 h=0"></div>
+            </section>
+            <section class="project-content">
+                <div class="hidden modal-wrapper fixed left-0 top-0 z-30 w-full h-full overflow-y-auto">
+                    <div class="project-modal-content overflow-y-auto z-50 w-4/5 lg:max-w-4xl xl:max-w-7xl bg-blue-100 text-black mt-32 mx-auto rounded-xl p-3 border-solid border-black border-8 outline outline-8 outline-white drop-shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="modal-close w-10 h-10 lg:w-14 lg:h-14 float-end">
+                            <path fillRule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
+                        </svg>
+                        <div class="modal-header mt-4 mb-8 flex flex-row gap-5 justify-around items-center">
+                            
+                        </div>
+                        <div class="modal-skills my-1 text-xl lg:text-2xl xl:text-4xl flex flex-row gap-5 justify-start items-center">
+                           
+                        </div>
+                        <p class="modal-desc text-lg lg:text-xl xl:text-2xl my-4"></p>
+                        <div class="modal-links my-1 text-xl lg:text-xl xl:text-2xl flex flex-row gap-5 justify-start items-center"> 
+                            <p>View This Project:</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="mt-10 p-5 border-t-2 border-slate-50 ">
+            <p class="bg-slate-900/25">Copyright 2024 | Made by me</p>
+    
+        </footer>
+    </body>
+</html>
