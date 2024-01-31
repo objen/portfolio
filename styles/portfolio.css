@@ -5,3 +5,9 @@ body {
 .contrast {
     filter: drop-shadow(0px 4px 16px #11111a);
 }
+
+.single-project {
+    background-image: url("../assets/projectbg.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
