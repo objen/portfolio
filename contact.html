@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scripts/portfolio.js" defer></script>
+</head>
+<body class="text-white">
+
+    <nav class="contrast fixed lg:static w-full p-2 lg:p-3 xl:p-6 flex flex-row justify-between stroke-2">
+        <a class="font-semibold text-4xl xl:text-5xl" href="index.html"><span>Jenny Claxton</span></a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 lg:hidden" id="mobile-menu-open">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg> 
+        <div class="navlinks hidden lg:flex p-2 flex flex-col lg:flex-row items-end gap-4 lg:gap-6 text-4xl xl:text-5xl font-semibold">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 lg:hidden" id="mobile-menu-close">
+                <path fillRule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
+              </svg>
+            <a href="projects.html" class="transition-all lg:motion-safe:hover:underline">Projects</a>
+            <a href="about.html" class="transition-all lg:motion-safe:hover:underline">About Me</a>
+            <a href="contact.html" class="transition-all lg:motion-safe:hover:underline">Contact</a>
+        </div>
+    </nav>
+    <main class="pt-1 w-full lg:max-w-4xl xl:max-w-7xl mx-auto">
+        <section class="p-4 lg:flex lg:items-center">
+            <img src="assets/contactthumb.png" alt="A sticker that looks like twooverlapping speech bubbles" class="pt-10 size-2/3 md:size-1/2 xl:size-1/3">
+            <div>
+                <!-- <p class="contrast font-bold text-6xl lg:text-7xl -mt-10 px-10 text-right"></p> -->
+                <h1 class="contrast font-bold mb-5 px-9 text-7xl lg:text-8xl  text-right">Get in touch</h1>
+            </div>
+        </section>
+        <section class="w-full md:w-3/4 xl:w-2/3 mx-auto flex flex-col p-2 sm:p-8 lg:p-12 gap-4 items-center">
+            <div class="w-full flex flex-row justify-evenly sm:justify-center items-center">
+               <div class="basis-1/3 z-10 transition-all motion-safe:hover:scale-105 motion-safe:hover:-rotate-12"><img src="assets/Email.png" alt="A sticker that looks like a envelope" class="drop-shadow-lg xl:max-h-96"></div>
+                <a href="mailto:jenny@portfolio.com" class="w-full lg:w-3/4 bg-slate-50 p-4 pl-10 lg:p-6 rounded-lg -ml-16 lg:-m-8 text-right text-slate-900 text-lg sm:text-2xl md:text-3xl lg:text-4xl font-semibold basis-2/3 z-0 transition-all motion-safe:hover:text-cyan-600"><p>jenny@portfolio.com</p></a>
+            </div>
+            <div class="w-full flex flex-row justify-evenly sm:justify-center items-center">
+                <div class="basis-1/3 z-10 transition-all motion-safe:hover:scale-105 motion-safe:hover:-rotate-12"><img src="assets/phone.png" alt="A sticker that looks like a mobile phone" class="drop-shadow-lg xl:max-h-96"></div>
+                 <a href="tel:01234567890" class="w-full lg:w-3/4 bg-slate-50 p-4 pl-10 lg:p-6 rounded-lg -ml-16 lg:-m-8 text-right text-slate-900 text-lg sm:text-2xl md:text-3xl lg:text-4xl font-semibold basis-2/3 z-0 transition-all motion-safe:hover:text-cyan-600"><p>0123 456 7890</p></a>
+             </div>
+             <div class="w-auto mx-auto flex flex-row justify-center items-center">
+                <div class="z-10 transition-all motion-safe:hover:scale-105 motion-safe:hover:-rotate-12"><a href="#"><img src="assets/instagram.png" alt="" class="mx-auto size-1/2"></a></div>
+                <div class="z-10 transition-all motion-safe:hover:scale-105 motion-safe:hover:-rotate-12"><a href="#"><img src="assets/facebook.png" alt="" class="mx-auto size-1/2"></a></div>
+                <div class="z-10 transition-all motion-safe:hover:scale-105 motion-safe:hover:-rotate-12"><a href="#"><img src="assets/linkedin.png" alt="" class="mx-auto size-1/2"></a></div>
+                <div class="z-10 transition-all motion-safe:hover:scale-105 motion-safe:hover:-rotate-12"><a href="#"><img src="assets/github.png" alt="" class="mx-auto size-1/2"></a></div>
+             </div>
+        </section>
+    </main>
+    <footer class="mt-10 p-5 border-t-2 border-slate-50 ">
+        <p class="bg-slate-900/25">Copyright 2024 | Made by me</p>
+
+    </footer>
+</body>
+</html>
