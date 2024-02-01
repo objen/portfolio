@@ -10,7 +10,6 @@ const modalHeader = document.querySelector('.modal-header')
 const modalSkills = document.querySelector('.modal-skills')
 const modalDesc = document.querySelector('.modal-desc')
 const modalLinks = document.querySelector('.modal-links')
-
 const modalClose = document.querySelector('.modal-close')
 
 // get the data
@@ -43,7 +42,7 @@ fetch('data/projects.json').then(function (response) {
                     <h3 class="text-3xl font-bold text-right md:text-4xl lg:text-5xl xl:text-8xl">${project.name}</h3>`
                     modalSkills.innerHTML = `<p class="font-semibold">Skills Used:</p><p>${project.skills}</p>`
                     modalDesc.innerHTML = `${project.desc}`
-                    modalLinks.innerHTML += `<a href="${project.live}" target="_blank"></i> Live Site</a>
+                    modalLinks.innerHTML = `  <p>View This Project:</p> <a href="${project.live}" target="_blank"></i> Live Site</a>
                     <a href="${project.git}" target="_blank"></i> Github</a>`
                     }
                 })
