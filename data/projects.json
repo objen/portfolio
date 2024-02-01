@@ -4,46 +4,46 @@
         "name": "Project 1",
         "id": "001",
         "img": "assets/avoegg.jpg",
-        "skills": "Design",
-        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
-        "live":"https://www.redsparkdigital.co.uk/",
-        "git":"https://www.redsparkdigital.co.uk/"
+        "skills": "Design, UX",
+        "desc": "Project 1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"#",
+        "git":"#"
       },
       {
         "name": "Project 2",
         "id": "002",
         "img": "assets/eggybread.jpg",
-        "skills": "Design",
-        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
-        "live":"https://www.redsparkdigital.co.uk/",
-        "git":"https://www.redsparkdigital.co.uk/"
+        "skills": "Databases, JSON",
+        "desc": "Project 2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto invento#ur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"#",
+        "git":"#"
       },
       {
         "name": "Project 3",
         "id": "003",
         "img": "assets/frenchtoast.jpg",
-        "skills": "Design",
-        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
-        "live":"https://www.redsparkdigital.co.uk/",
-        "git":"https://www.redsparkdigital.co.uk/"
+        "skills": "Front End, E-Commerce",
+        "desc": "Project 3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"#",
+        "git":"#"
       },
       {
         "name": "Project 4",
         "id": "004",
         "img": "assets/fruittoast.jpg",
-        "skills": "Design",
-        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
-        "live":"https://www.redsparkdigital.co.uk/",
-        "git":"https://www.redsparkdigital.co.uk/"
+        "skills": "UX research, Design, SEO",
+        "desc": "Project 4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"#",
+        "git":"#"
       },
       {
         "name": "Project 5",
         "id": "005",
         "img": "assets/fryup.jpg",
-        "skills": "Design",
-        "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
-        "live":"https://www.redsparkdigital.co.uk/",
-        "git":"https://www.redsparkdigital.co.uk/"
+        "skills": "HTML, CSS",
+        "desc": "Project 5 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quod laboriosam quisquam, incidunt iusto inventore minus nesciunt doloremque tenetur ab corrupti, beatae accusamus repellat animi molestiae. Aperiam, modi? Asperiores, quam!",
+        "live":"#",
+        "git":"#"
       }
     ]
   }
